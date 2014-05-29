@@ -1,4 +1,4 @@
-futapp_web
-==========
+Futapp WEB
+============
 
-Landing page for futApp (Temporal repository)
+This will be the temporal repository for the project FutApp landing page.
