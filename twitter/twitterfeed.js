@@ -2,8 +2,8 @@
 $(document).ready(function () {
  
     var displaylimit = 10;
-    var twitterprofile = "SJ_Nailed_It";
-    var screenname = "Sara Jane Jackson";
+    var twitterprofile = "AdalRamones";
+    var screenname = "Adal Ramones";
     var showdirecttweets = false;
     var showretweets = true;
     var showtweetlinks = true;
@@ -17,7 +17,7 @@ $(document).ready(function () {
  
     $('#twitter-feed').html(headerHTML + loadingHTML);
  
-    $.getJSON('get-tweets.php',
+    $.getJSON('twitter/get-tweets.php',
         function(feeds) {
             //alert(feeds);
             var feedHTML = '';
